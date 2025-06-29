@@ -1,0 +1,115 @@
+#onibus{
+    display: flex;
+}
+
+.text-1{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 59%;
+}
+
+.img-1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+}
+
+.img-1 img{
+    height: 530px;
+    width: 400px;
+    border-radius: 15%;
+}
+
+.title-1{
+    display: flex;
+    color: aliceblue;
+    font-size: 3.2rem;
+}
+
+.desc-1{
+    display: flex;
+    font-size: 1.4rem;
+    width: 90%;
+}
+
+/*=============================================================
+================================================================
+===============================================================*/
+
+#estagio{
+    display: flex;
+}
+
+.text-2{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 59%;
+}
+
+.img-2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 50%;
+}
+
+.img-2 img{
+    height: 560px;
+    width: 410px;
+    border-radius: 17%;
+}
+
+.title-2{
+    display: flex;
+    color: aliceblue;
+    font-size: 3.2rem;
+}
+
+.desc-2{
+    display: flex;
+    font-size: 1.5rem;
+    width: 90%;
+}
+
+/*=============================================================
+================================================================
+===============================================================*/
+
+#game{
+    display: flex;
+}
+
+.text-3{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 59%;
+}
+
+.img-3{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+}
+
+.img-3 img{
+    height: 530px;
+    width: 400px;
+    border-radius: 15%;
+}
+
+.title-3{
+    display: flex;
+    color: aliceblue;
+    font-size: 3.2rem;
+}
+
+.desc-3{
+    display: flex;
+    font-size: 1.4rem;
+    width: 90%;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/favoritos.css">
+    <link rel="shortcut icon" href="icones/gato-preto-malvado.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Favoritos</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-paw" id="nav_logo"> Mat</i>
+
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html">Biografia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="life-style.html">Life Style</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="favoritos.html">Favoritos</a>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html">Biografia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="life-style.html">Life Style</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="favoritos.html">Favoritos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="games">
+            <div class="title-1">
+                <h1>Jogos</h1>
+            </div>
+            <div class="imagens-1">
+                <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/"
+                    target="_blank">
+                    <img height="200px" width="200px" src="imagens/favoritos/game-1.jpg" alt="skyrim">
+                    <p>The Elder Scrolls V: Skyrim</p>
+                </a>
+                <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/" target="_blank">
+                    <img height="200px" width="200px" src="imagens/favoritos/game-2.avif" alt="the-witcher">
+                    <p>The Witcher 3: Wild Hunt</p>
+                </a>
+                <a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/" target="_blank">
+                    <img height="200px" width="200px" src="imagens/favoritos/game-3.webp" alt="spider-man">
+                    <p>Marvel’s Spider-Man</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="artistas">
+            <div class="title-2">
+                <h1>Artistas</h1>
+            </div>
+            <div class="imagens-2">
+                <a href="https://www.youtube.com/@yunglixo2147" target="_blank">
+                    <img height="200px" width="200px" src="imagens/favoritos/art-1.png" alt="yun-li">
+                    <p>Yung Li /
+                        <br>
+                        Cantor
+                    </p>
+                </a>
+                <a href="https://www.youtube.com/@Hakuro25" target="_blank">
+                    <img height="200px" width="200px" src="imagens/favoritos/art-2.jpg" alt="hakuro">
+                    <p>Hakuro / 
+                        <br>
+                        Instrumental
+                    </p>
+                </a>
+                <a href="https://www.youtube.com/@Bife/featured" target="_blank">
+                    <img height="200px" width="200px" src="imagens/favoritos/art-3.jpg" alt="biffe">
+                    <p>Biffe /
+                        <br>
+                        Cantor / Produtor
+                    </p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="src/src.js"></script>
+
+</body>
+
+</html>

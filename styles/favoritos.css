@@ -1,0 +1,64 @@
+#games{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens-1{
+    display: flex;
+}
+.imagens-1 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 25%;
+    transition: 0.2s ease-in-out;
+}
+.imagens-1 a:hover{
+    color: black;
+}
+.imagens-1 img{
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.title-1 h1{
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+
+/*=============================================================
+================================================================
+===============================================================*/
+
+#artistas{
+    display: flex;
+    flex-direction: column;
+}
+.imagens-2{
+    display: flex;
+}
+.imagens-2 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 25%;
+    transition: 0.2s ease-in-out;
+}
+.imagens-2 a:hover{
+    color: black;
+}
+.imagens-2 img{
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.title-2 h1{
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
