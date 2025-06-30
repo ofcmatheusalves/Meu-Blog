@@ -1,29 +1,33 @@
-#games{
+#games {
     display: flex;
     flex-direction: column;
 }
 
-.imagens-1{
+.imagens-1 {
     display: flex;
 }
-.imagens-1 a{
+
+.imagens-1 a {
     text-decoration: none;
     color: aliceblue;
     font-size: 1.5rem;
     font-weight: 400;
     width: 25%;
     transition: 0.2s ease-in-out;
+    margin-left: 40px;
 }
-.imagens-1 a:hover{
+
+.imagens-1 a:hover {
     color: black;
 }
-.imagens-1 img{
+
+.imagens-1 img {
     border-radius: 50%;
     transition: 0.2s ease-in-out;
     margin-bottom: 30px;
 }
 
-.title-1 h1{
+.title-1 h1 {
     font-size: 2rem;
     color: aliceblue;
     margin-bottom: 40px;
@@ -33,32 +37,75 @@
 ================================================================
 ===============================================================*/
 
-#artistas{
+#artistas {
     display: flex;
     flex-direction: column;
 }
-.imagens-2{
+
+.imagens-2 {
     display: flex;
 }
-.imagens-2 a{
+
+.imagens-2 a {
     text-decoration: none;
     color: aliceblue;
     font-size: 1.5rem;
     font-weight: 400;
     width: 25%;
     transition: 0.2s ease-in-out;
+    margin-left: 40px;
 }
-.imagens-2 a:hover{
+
+.imagens-2 a:hover {
     color: black;
 }
-.imagens-2 img{
+
+.imagens-2 img {
     border-radius: 50%;
     transition: 0.2s ease-in-out;
     margin-bottom: 30px;
 }
 
-.title-2 h1{
+.title-2 h1 {
     font-size: 2rem;
     color: aliceblue;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 805px) {
+
+    .imagens-1 img,
+    .imagens-2 img {
+        height: 160px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .imagens-1 img,
+    .imagens-2 img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .imagens-1 a,
+    .imagens-2 a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .imagens-1 img,
+    .imagens-2 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .imagens-1 a,
+    .imagens-2 a {
+        font-size: 0.8rem;
+    }
+
 }

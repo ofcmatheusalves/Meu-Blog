@@ -1,51 +1,54 @@
-header{
+header {
     width: 100%;
     padding: 28px 8%;
 }
-#navbar{
+
+#navbar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#nav_logo{
+#nav_logo {
     font-size: 24px;
     color: #021f24;
 }
 
-#nav_list{
+#nav_list {
     display: flex;
     list-style: none;
     gap: 48px;
     margin-right: 19rem;
 }
 
-.nav-item a{
+.nav-item a {
     text-decoration: none;
     color: #b2d2ed;
     font-weight: 560;
 }
 
-.nav-item.active a{
+.nav-item.active a {
     color: #71a4cf;
     border-bottom: 3px solid #71a4cf;
 }
 
-#mobile_btn{
+#mobile_btn {
     display: none;
 }
 
-#mobile_menu{
+#mobile_menu {
     display: none;
 }
 
 @media screen and (max-width: 1170px) {
+
     #nav_list,
-    #navbar .btn-default{
+    #navbar .btn-default {
         display: none;
     }
-    #mobile_btn{
+
+    #mobile_btn {
         border: none;
         background-color: transparent;
         font-size: 1.5rem;
@@ -53,20 +56,20 @@ header{
         display: block;
     }
 
-    #mobile_menu.active{
+    #mobile_menu.active {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #mobile_nav_list{
+    #mobile_nav_list {
         display: flex;
         flex-direction: column;
         gap: 12px;
         margin: 12px 0px;
     }
 
-    #mobile_nav_list .nav-item{
+    #mobile_nav_list .nav-item {
         list-style: none;
         text-align: none;
     }
